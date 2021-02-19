@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -9,10 +9,6 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-  <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-  </nav>
   <div id="app">Carregando...</div>
   <script>
     window.$docsify = {
@@ -25,7 +21,10 @@
       auto2top: true,
       executeScript: true,
       notFoundPage: true,
-      notFoundPage: 'my404.md'
+      notFoundPage: {
+        '/': '_404.md',
+        '/us': 'en/_404.md',
+      }
     }
   </script>
 
