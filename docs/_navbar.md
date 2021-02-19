@@ -11,3 +11,7 @@
   * [Using plugins](plugins.md)
   * [Markdown configuration](markdown.md)
   * [Language highlight](language-highlight.md)
+
+* Lang
+  * [:us:](/)
+  * [:cn:](/zh-cn/)
