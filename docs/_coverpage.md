@@ -1,4 +1,4 @@
-![logo](img/logo.png)
+![logo](img/logo.jpeg)
 
 # docsify <small>3.5</small>
 
